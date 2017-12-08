@@ -1,0 +1,26 @@
+name       : lbryschema
+version    : 0.0.15_2
+release    : 1
+source     :
+    - https://github.com/lbryio/lbryschema/archive/v0.0.15rc2.tar.gz : 51cce94759f07858cf40ff2cc3c0cdbcfcca44214c734ceafa52e6b18a283f0d
+license    : Public-Domain
+component  : programming.library
+summary    : Protobuf schema for claims on the LBRY blockchain
+description: |
+    Protobuf schema for claims on the LBRY blockchain
+builddeps  :
+    - pylint # For tests
+    - python-ecdsa
+    - python-jsonschema
+    - python-protobuf
+rundeps    :
+    - python-ecdsa
+    - python-jsonschema
+    - python-protobuf
+build      : |
+    %python_setup
+install    : |
+    %python_install
+check      : |
+    cd $workdir/lbryschema-*
+    PYTHONPATH=$installdir/usr/lib/python2.7/site-packages ./run_tests_and_pylint.sh

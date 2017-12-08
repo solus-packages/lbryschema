@@ -1,0 +1,102 @@
+<PISI>
+    <Source>
+        <Name>lbryschema</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>Public-Domain</License>
+        <PartOf>programming.library</PartOf>
+        <Summary xml:lang="en">Protobuf schema for claims on the LBRY blockchain</Summary>
+        <Description xml:lang="en">Protobuf schema for claims on the LBRY blockchain
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>lbryschema</Name>
+        <Summary xml:lang="en">Protobuf schema for claims on the LBRY blockchain</Summary>
+        <Description xml:lang="en">Protobuf schema for claims on the LBRY blockchain
+</Description>
+        <PartOf>programming.library</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema-0.0.15rc2-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema-0.0.15rc2-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema-0.0.15rc2-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema-0.0.15rc2-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema-0.0.15rc2-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/address.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/address.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/base.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/claim.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/claim.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/decode.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/decode.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/encoding.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/encoding.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/error.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/error.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/fee.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/fee.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/hashing.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/hashing.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/legacy/StructuredDict.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/legacy/StructuredDict.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/legacy/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/legacy/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/legacy/metadata_schemas.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/legacy/metadata_schemas.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/legacy/migrate.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/legacy/migrate.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/certificate.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/certificate.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/certificate_pb2.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/certificate_pb2.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/claim.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/claim.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/claim_pb2.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/claim_pb2.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/fee.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/fee.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/fee_pb2.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/fee_pb2.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/metadata.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/metadata.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/metadata_pb2.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/metadata_pb2.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/schema.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/schema.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/signature.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/signature.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/signature_pb2.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/signature_pb2.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/source.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/source.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/source_pb2.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/source_pb2.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/stream.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/stream.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/stream_pb2.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/schema/stream_pb2.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/signer.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/signer.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/uri.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/uri.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/validator.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryschema/validator.pyc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-12-08</Date>
+            <Version>0.0.15_2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
